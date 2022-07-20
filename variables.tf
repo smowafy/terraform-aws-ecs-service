@@ -240,3 +240,8 @@ variable "ecs_exec_enable" {
   default     = false
   type        = bool
 }
+
+variable "network_mode" {
+  type = string
+  default = "awsvpc"
+}
